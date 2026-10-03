@@ -1,0 +1,16 @@
+{
+  "name": "mondovo",
+  "displayName": "Mondovo",
+  "version": "1.0.0",
+  "description": "Build, edit and publish professional websites from a conversation. Describe a business and Mondovo designs three complete sites to choose from, then change them in plain words and publish to the web.",
+  "author": { "name": "Mondovo", "email": "support@mondovo.com", "url": "https://mondovo.com" },
+  "homepage": "https://app.mondovo.com/connectors",
+  "repository": "https://github.com/Mondovo/claude-plugin",
+  "license": "MIT",
+  "keywords": ["website builder", "websites", "landing page", "web design", "publishing", "small business", "agency"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://app.mondovo.com/connectors",
+  "supportUrl": "https://mondovo.com/help-center",
+  "privacyPolicyUrl": "https://mondovo.com/privacy",
+  "termsOfServiceUrl": "https://mondovo.com/terms"
+}

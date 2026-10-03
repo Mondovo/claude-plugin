@@ -2,7 +2,7 @@
   "mcpServers": {
     "mondovo": {
       "type": "http",
-      "url": "https://app.mondovo.com/api/mcp/sites"
+      "url": "https://app.mondovo.com/api/mcp/claude"
     }
   }
 }

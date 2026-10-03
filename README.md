@@ -10,7 +10,7 @@ account with full version history, so any change can be undone.
 ## What's inside
 
 - **Mondovo connector** — connects Claude to your Mondovo account at
-  `https://app.mondovo.com/api/mcp/sites`. You sign in with your Mondovo account
+  `https://app.mondovo.com/api/mcp/claude`. You sign in with your Mondovo account
   and choose which workspace and permissions to grant.
 - **Skills** that teach Claude the workflow:
   - `onboarding` — gets a new user to their first website
@@ -29,8 +29,8 @@ account with full version history, so any change can be undone.
    - "Make the hero on my site darker"
 
 You need a Mondovo account. Building and publishing use your plan's allowance;
-images and videos use Creative Studio credits, and Claude confirms with you
-before anything that costs credits.
+logos and social copy packs use Creative Studio credits, and Claude confirms
+with you before anything that costs credits.
 
 ## Data
 
@@ -39,8 +39,8 @@ for Claude, and its only network destination is the Mondovo connector above.
 Through that connector, Claude sends the details you give it — business
 description, requested changes, uploaded reference images, and publishing
 choices — to your Mondovo account, and reads back your sites, designs, job
-status and, if you use them, your Creative Studio media and the contacts your
-site has collected. Access is limited to the workspace and permissions you
+status and, if you use them, your Creative Studio brands, content calendar and
+the contacts and form submissions your site has collected. Access is limited to the workspace and permissions you
 approve at sign-in, and you can disconnect at any time from Mondovo →
 Settings → Connected Apps.
 

@@ -28,9 +28,11 @@ account with full version history, so any change can be undone.
    - "Show me my Mondovo sites"
    - "Make the hero on my site darker"
 
-You need a Mondovo account. Building and publishing use your plan's allowance;
-logos and social copy packs use Creative Studio credits, and Claude confirms
-with you before anything that costs credits.
+You need a Mondovo account. Building and editing websites is free, and your first
+site can go live free on a mondovo.com address. Your own domain comes with Pro:
+$20/month with one live site included (some countries pay a local price, shown in
+Mondovo). Logos and social copy packs use Creative Studio credits, and Claude
+confirms with you before anything that costs credits.
 
 ## Data
 

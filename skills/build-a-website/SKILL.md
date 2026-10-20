@@ -5,7 +5,9 @@ description: Create a new website with Mondovo from a description of a business 
 
 # Build a website
 
-Mondovo designs the site. Never write HTML or React for the user yourself.
+There are two ways to make the design: Mondovo generates three designs from a
+brief, or you design it yourself and Mondovo checks, hosts and publishes it.
+`get_intake_questions` offers the choice.
 
 ## 1. Check first
 Call `list_sites` if the user might already have a site for this business, so you
@@ -27,7 +29,16 @@ For a ready-made business (a directory, for instance), call `list_packs` and use
 a `pack_slug` instead of a brief.
 
 ## 3. Create
-Call `create_site`. It returns a `site_id` and starts building three designs.
+If `get_intake_questions` returned a `design_method` choice, ask the user which
+they prefer.
+
+**You design it.** Write the complete site from the brief as React TSX, exactly
+as the `files` and `content` shapes in the tool description say. Check it with
+`validate_design` and fix every issue it lists, call `create_site_from_design`,
+then look at it with `capture_design_screenshot` before showing it. Put the
+business's real facts in `content`, never invented ones.
+
+**Mondovo generates it** (or there was no choice): call `create_site`. It returns a `site_id` and starts building three designs.
 This takes 3 to 15 minutes. Tell the user it is underway and roughly how long
 it takes, and give a short update when the status changes. Poll `get_site` about
 every 10 seconds when you need to know it has finished; only `ready` means all

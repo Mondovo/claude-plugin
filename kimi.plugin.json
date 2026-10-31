@@ -1,0 +1,19 @@
+{
+  "name": "mondovo",
+  "version": "1.0.0",
+  "description": "Build, find, edit, and publish professional websites in your Mondovo account from a conversation.",
+  "homepage": "https://app.mondovo.com/connectors",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": {
+    "mondovo": {
+      "url": "https://app.mondovo.com/api/mcp/sites"
+    }
+  },
+  "interface": {
+    "displayName": "Mondovo",
+    "shortDescription": "Build, find, edit, and publish professional websites in your Mondovo account from a conversation.",
+    "developerName": "Mondovo",
+    "websiteURL": "https://mondovo.com"
+  }
+}

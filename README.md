@@ -51,3 +51,28 @@ Privacy policy: https://mondovo.com/privacy · Terms: https://mondovo.com/terms
 ## Support
 
 Help center: https://mondovo.com/help-center · Email: support@mondovo.com
+
+
+## Gemini CLI
+
+This repository also includes `gemini-extension.json`. Gemini CLI uses that
+manifest and the shared `skills/` directory; Claude uses `.claude-plugin/`
+and `.mcp.json`.
+
+Install from your terminal:
+
+```sh
+gemini extensions install https://github.com/Mondovo/claude-plugin
+```
+
+Restart Gemini CLI, then sign in to your Mondovo account when prompted.
+If authentication is needed, run `/mcp auth mondovo`; use `/mcp list` to check
+the connection. Gemini connects through Streamable HTTP to
+`https://app.mondovo.com/api/mcp/sites`, using automatic OAuth discovery.
+Choose the workspace and permissions to grant at sign-in. The same data and
+permission disclosures above apply to Gemini; its connector endpoint is the
+`/api/mcp/sites` URL.
+
+Gallery discovery requires a public GitHub repository with the
+`gemini-cli-extension` topic and this manifest at the repository root. Google
+crawls tagged repositories daily and lists extensions that pass validation.

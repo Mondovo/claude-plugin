@@ -76,3 +76,20 @@ permission disclosures above apply to Gemini; its connector endpoint is the
 Gallery discovery requires a public GitHub repository with the
 `gemini-cli-extension` topic and this manifest at the repository root. Google
 crawls tagged repositories daily and lists extensions that pass validation.
+
+
+## Kimi
+
+The same repository includes Kimi's native `kimi.plugin.json` manifest and
+shares the website workflow skills. In Kimi Code, run:
+
+```text
+/plugins install https://github.com/Mondovo/claude-plugin
+```
+
+Run `/reload` or start a new session, then authorize Mondovo when prompted.
+For browser-based authorization, use `/mcp-config login mondovo` if needed.
+Kimi uses `https://app.mondovo.com/api/mcp/sites`; the data and permission
+disclosures above also apply to this endpoint. In Kimi Work, Plugin Builder
+can import the repository into the Personal tab. Marketplace publication is
+a separate application after importing and testing the personal plugin.

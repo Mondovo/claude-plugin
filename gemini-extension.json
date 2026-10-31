@@ -1,0 +1,10 @@
+{
+  "name": "mondovo",
+  "version": "1.0.0",
+  "description": "Build, find, edit, and publish professional websites in your Mondovo account from a conversation.",
+  "mcpServers": {
+    "mondovo": {
+      "httpUrl": "https://app.mondovo.com/api/mcp/sites"
+    }
+  }
+}
